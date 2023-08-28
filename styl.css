@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    flex-direction: column;
+  }
+  
+  .dice-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+img {
+  width: 300px;
+}
+
+#rollButton {
+  font-size: 24px;
+}
